@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  'Protest Riot' , sans-serif;
+}
+body {
+	font-family: 'DM Sans Variable', sans-serif;
+	background-image: url('/assets/noise-texture.svg');
+	@apply grid text-primary-50 bg-surface-900 bg-repeat;
+}
+
+
+
+
+.glass-container {
+	position: relative;
+}
+
+.glass-container::before {
+	@apply absolute -inset-[10px] -z-10 rounded-xl;
+	content: '';
+}

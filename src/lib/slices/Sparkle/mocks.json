@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Possibly"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Incididunt nulla quis minim quis elit enim esse magna ut eu minim consequat anim. Exercitation deserunt sit enim deserunt consequat fugiat aliqua."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
