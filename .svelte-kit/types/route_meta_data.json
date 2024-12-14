@@ -1,0 +1,46 @@
+{
+	"/": [
+		"src/routes/+layout.server.ts"
+	],
+	"/admin": [
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/assign_role": [
+		"src/routes/+layout.server.ts"
+	],
+	"/api/preview": [
+		"src/routes/api/preview/+server.ts"
+	],
+	"/[[preview=preview]]/location/[uid]": [
+		"src/routes/[[preview=preview]]/location/[uid]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/login": [
+		"src/routes/+layout.server.ts"
+	],
+	"/profile": [
+		"src/routes/profile/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/[[preview=preview]]/program/[uid]": [
+		"src/routes/[[preview=preview]]/program/[uid]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/signup": [
+		"src/routes/+layout.server.ts"
+	],
+	"/slice-simulator": [
+		"src/routes/+layout.server.ts"
+	],
+	"/staff": [
+		"src/routes/+layout.server.ts"
+	],
+	"/[[preview=preview]]": [
+		"src/routes/[[preview=preview]]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/[[preview=preview]]/[uid]": [
+		"src/routes/[[preview=preview]]/[uid]/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	]
+}
